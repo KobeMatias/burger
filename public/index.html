@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eat Da Burger!</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/2a86921d92.js" crossorigin="anonymous"></script>
+    <!-- Animate.css CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <!-- Google Fonts CDN -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Sriracha&display=swap" rel="stylesheet">
+    <!-- Personal CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="heading text-center">
+                <!-- <i class="fas fa-hamburger"></i> -->
+                <img class="headerburger animate__animated animate__rubberBand" src="./assets/images/burger.png" alt="burger">
+                <h1>Eat Da Burger!</h1>
+            </div>
+        </div>
+    </header>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="desc">Enter a burger you want to eat & click the "Add Burger" button.</p>
+                    <form class="add_burger">
+                        <input type="text" class="form-control" name="burgerName" value="" id="burgerName">
+                        <button type="submit" class="btn btn-primary addBurger" id="text-center-button">Add Burger</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header text-center">
+                            <h3>Uneaten Burgers</h3>
+                        </div>
+                        <div class="card-body" id="not_Devoured">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header text-center">
+                            <h3>Devoured Burgers</h3>
+                        </div>
+                        <div class="card-body" id="Devoured">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Personal Javascript -->
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

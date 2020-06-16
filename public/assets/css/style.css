@@ -1,0 +1,40 @@
+body {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(253,204,13,1) 33%, rgba(253,204,13,1) 66%, rgba(255,255,255,1) 100%);
+    background-position: center;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h3 {
+    font-family: 'Sriracha', cursive;
+}
+
+.heading {
+    margin-top: 2rem;
+}
+
+.headerburger {
+    max-width: 30%;
+}  
+
+.burger-row {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.desc, .add_burger, #burgerName {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.desc, .addBurger {
+    font-size: 20px;
+}
+
+#burgerName {
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
